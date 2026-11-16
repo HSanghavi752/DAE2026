@@ -50,7 +50,7 @@ while True:
         Gender=input("What is your gender?")
         timelist=["1","2","3","4","5","6","7","8","9","10"]
         CompilingTIme=int(input("How long would you like me to compile your data for? (In seconds 1-10)"))
-        print("Compiling Data...") #We're done asking the user things infromaiton related.
+        print("Compiling Data...") #We're done asking the user things infromaiton related.x 
         for i in timelist[:CompilingTIme]:
             time.sleep(1)
             print(f"{i} seconds have passed.")
